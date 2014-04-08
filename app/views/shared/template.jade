@@ -1,0 +1,14 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title= title
+    link(rel='stylesheet', href='/css/normalize.css')
+    link(rel='stylesheet', href='/less/app.css')
+  body
+    block content
+
+    script(src='/js/vendor/jquery.js')
+    script(src='/js/vendor/lodash.js')
+    script(src='/socket.io/socket.io.js')
+    script(src='/js/source/main.js')
